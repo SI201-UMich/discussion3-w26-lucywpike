@@ -1,19 +1,15 @@
 import math
 
 class Rectangle():
-    # Create the constructor "__init__" method
+    # Represents a rectangle with a given width and height
 
-    # YOUR CODE HERE
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
 
+    # Initializes the Rectangle object with width and height
 
-
-    # Create the "__str__" method
-
-    # YOUR CODE HERE
-
-
-
-    # Create the "area_calculator" method
+    # Returns a string representation of the Rectangle object
 
     # YOUR CODE HERE
 
