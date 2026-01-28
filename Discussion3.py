@@ -14,9 +14,10 @@ class Rectangle():
     
     # Returns a string representation of the Rectangle object
 
-    # YOUR CODE HERE
-
-
+    def area_calculator(self):
+        return self.width * self.height
+    
+    # Returns the area of the rectangle 
 
     # Create the "__eq__" method
     # 
