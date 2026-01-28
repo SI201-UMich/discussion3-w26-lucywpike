@@ -20,7 +20,7 @@ class Rectangle():
     # Returns the area of the rectangle 
 
     def __eq__(self, other):
-        if self.width == other.width and self.height == other.height
+        if self.width == other.width and self.height == other.height:
             return True
         else:
             return False 
