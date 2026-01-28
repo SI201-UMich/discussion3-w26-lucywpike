@@ -20,9 +20,10 @@ class Rectangle():
     # Returns the area of the rectangle 
 
     def __eq__(self, other):
-        if not isinstance(other, Rectangle):
-            return NotImplemented
-        return self.width == other.wideth and self.height == other.height 
+        if self.width == other.width and self.height == other.height
+            return True
+        else:
+            return False 
     
     # Compares two Rectangle objects for equality; returns True if both rectangles have the same width and height, False otherwise
 
