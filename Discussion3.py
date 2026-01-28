@@ -19,15 +19,12 @@ class Rectangle():
     
     # Returns the area of the rectangle 
 
-    # Create the "__eq__" method
-    # 
-    # Returns a boolean value
-
-    # YOUR CODE HERE
-
-
+    def __eq__(self, other):
+        if not isinstance(other, Rectangle):
+            return NotImplemented
+        return self.width == other.wideth and self.height == other.height 
     
-
+    # Compares two Rectangle objects for equality; returns True if both rectangles have the same width and height, False otherwise
 
 def main():
     r1 = Rectangle(10, 10)
