@@ -9,6 +9,9 @@ class Rectangle():
 
     # Initializes the Rectangle object with width and height
 
+    def __str__(self):
+        return f"A rectangle with width {self.width} and height {self.height}"
+    
     # Returns a string representation of the Rectangle object
 
     # YOUR CODE HERE
